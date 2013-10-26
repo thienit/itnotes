@@ -1,0 +1,475 @@
+/*   
+Theme Name: IT Notes
+Theme URI: http://itnotes.vn
+Description: This is IT Notes Theme
+Author: Thien Nguyen
+Author URI: http://itnotes.vn
+Version: 2
+*/
+
+a{
+     text-decoration: none;
+     color: #FFCB00;
+}
+
+a:hover{
+     color: #008000;
+}
+.group {
+     clear: both;
+     display: inline-block;
+}
+
+
+#header {
+     background: none repeat scroll 0% 0% #272C34;
+     border-bottom: 3px solid #008000;
+}
+
+#top-bar {
+     background: none repeat scroll 0% 0% #008000;
+     height: 35px;
+}
+
+#menu-page-menu li {
+     border-left: 1px solid #272C34;
+     float: left;
+     margin: 0px;
+     padding: 0px 10px;
+}
+
+#menu-page-menu li a {
+     color: #FFFFFF;
+     display: block;
+     line-height: 35px;
+     margin: 0px;
+     padding: 0px;
+     text-decoration: none;
+}
+
+#menu-page-menu li:hover {
+     background: none repeat scroll 0% 0% #025F02;
+     transition: all 0.3s ease 0s;
+}
+
+#page-search {
+     background-color: #025F02;
+     height: 35px;
+}
+
+#page-search input {
+     background: none repeat scroll 0% 0% transparent;
+     border: medium none;
+     color: #FFFFFF;
+     margin-left: 10px;
+     margin-top: 8px;
+     width: 230px;
+}
+
+#page-search input:focus {
+     outline: medium none;
+}
+
+#search-submit {
+     background: url("images/search_icon.png") no-repeat scroll 0% 0% transparent;
+     margin-left: 5px;
+     padding: 0px 17px 0px 0px;
+}
+
+#search-submit:hover {
+     background: url("images/search_icon-hover.png") no-repeat scroll 0% 0% transparent;
+}
+
+#logo {
+     margin: 65px 0px;
+}
+
+#menu-categories-menu {
+     margin-bottom: 35px;
+}
+
+#menu-categories-menu > li {
+     background-color: #008000;
+     border-right: 2px solid #272C34;
+     box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5) inset;
+     float: left;
+     position: relative;
+}
+
+#menu-categories-menu > li:hover {
+    
+}
+
+#menu-categories-menu li:hover ul {
+     display: block;
+}
+
+#menu-categories-menu li a {
+     color: #FFFFFF;
+     display: block;
+     font-size: 14px;
+     min-width: 85px;
+     text-decoration: none;
+     transition: all 0.5s ease 0s;
+}
+
+#menu-categories-menu li a span {
+     display: inline-block;
+     margin: 55px 30px 15px 15px;
+}
+
+#menu-categories-menu li ul {
+     background: inherit;
+     border-top: 2px solid #272C34;
+     display: none;
+     position: absolute;
+     top: 100%;
+     width: 180px;
+     z-index: 10000;
+}
+
+#menu-categories-menu li li {
+     background-color: #FFFFFF;
+     display: block;
+     margin-left: 10px;
+     padding: 0px 10px;
+     width: 100%;
+}
+
+#menu-categories-menu li li:first-child {
+     padding-top: 10px;
+}
+
+#menu-categories-menu li li:last-child {
+     padding-bottom: 10px;
+}
+
+#menu-categories-menu li li a {
+     color: #272C34;
+     display: block;
+     font-size: 13px;
+     line-height: 36px;
+     min-height: 38px;
+}
+
+#menu-categories-menu li li:hover a {
+     background-color: #F1F1F1;
+     padding-left: 10px;
+}
+
+#menu-categories-menu li li a span {
+     margin: 0px;
+     padding: 0px;
+}
+
+/**************** POST STYLE ****************/
+.post {
+     border-bottom: 1px solid #F1F1F1;
+     overflow: hidden;
+     padding: 20px 0px;
+}
+
+.post .image {
+     float: left;
+     margin-right: 15px;
+}
+
+.post .image a{
+     text-decoration: none;
+}
+.post .image img {
+     height: 250px;
+     width: 400px;
+}
+
+.post h6 a {
+     color: #636262;
+     font-weight: normal;
+     text-decoration: none;
+}
+
+.post h2 a {
+     color: #383838;
+     display: block;
+     font-weight: normal;
+     margin: 10px 0px 40px;
+     text-decoration: none;
+}
+
+.post h2 a:hover {
+     color: #008000;
+}
+
+.post .post-date {
+     color: #383838;
+     font-size: 12px;
+     font-style: italic;
+}
+
+.post .rating {
+     clear: both;
+     display: inline-block;
+     margin-top: 10px;
+}
+
+.post .rating li {
+     display: inline;
+}
+
+.post .rating li a{
+     text-decoration: none;
+     color: #383838;
+}
+
+.post .rating li.view a {
+     background: url("images/view_icon.jpg") no-repeat scroll center center transparent;
+     margin-left: 20px;
+     padding: 10px 0px 10px 55px;
+}
+
+.post .rating li.comt a {
+     background: url("images/comment_icon.jpg") no-repeat scroll center center transparent;
+     padding: 10px 0px 10px 50px;
+}
+
+#load-more a {
+     background: none repeat scroll 0% 0% #272C34;
+     color: #FFFFFF;
+     display: block;
+     font-weight: bold;
+     height: 34px;
+     line-height: 34px;
+     margin: 20px 0px;
+     text-align: center;
+     text-decoration: none;
+}
+
+#load-more a:hover {
+     opacity: 0.9;
+}
+
+#sidebar {
+     background-color: #F1F1F1;
+     padding-bottom: 40px;
+}
+
+#sidebar a:hover{
+    color: #008000;
+}
+#sidebar .tabs {
+     background-color: #FFFFFF;
+     display: block;
+     height: 42px;
+     margin: 20px 14px 0px;
+}
+
+#sidebar .tabs li {
+     border: 1px solid #008000;
+     color: #008000;
+     cursor: pointer;
+     display: block;
+     float: left;
+     font-size: 12px;
+     font-weight: bold;
+     height: 26px;
+     line-height: 25px;
+     margin: 10px 0px 0px 10px;
+     text-align: center;
+     width: 70px;
+}
+
+#sidebar .tabs li.active {
+     border: 1px solid #E45B36;
+     color: #E45B36;
+}
+
+#sidebar .tab_container {
+     background-color: #FFFFFF;
+     margin: 0px 14px;
+}
+
+#sidebar .tab_container img {
+     height: 48px;
+     width: 48px;
+}
+
+#popular li, #recent li {
+     border-bottom: 1px solid #F1F1F1;
+     display: block;
+     height: 62px;
+     padding: 16px 10px 10px 17px;
+}
+
+#popular li a, #recent li a {
+     color: #626060;
+     font-size: 13px;
+     text-decoration: none;
+}
+
+#popular li div.image, #recent li div.image {
+     float: left;
+     height: 48px;
+     margin-right: 10px;
+     width: 48px;
+}
+
+#popular li div.title, #recent li div.title {
+     margin-top: -6px;
+}
+
+#sidebar .tab_container > div {
+    
+}
+
+#tags {
+     overflow: hidden;
+     padding: 10px 10px 20px 16px;
+}
+
+#tags span {
+     background-color: #008000;
+     color: #FFFFFF;
+     cursor: pointer;
+     display: block;
+     float: left;
+     font-size: 11px;
+     margin: 1px;
+     padding: 5px 8px;
+}
+
+.widget {
+     color: #5D5D5D;
+     display: block;
+     margin: 48px 14px 0px;
+}
+
+.widget li {
+     border-bottom: 1px solid #D4D1D1;
+     min-height: 62px;
+     padding: 16px 0px 10px;
+}
+
+.widget h3,
+.widget h2 {
+     font-size: 16px;
+     color: #272C34;
+     margin-bottom: 20px;
+}
+
+.widget .image {
+     float: left;
+     height: 48px;
+     margin-right: 10px;
+     width: 48px;
+}
+
+.widget .image img {
+     height: 48px;
+     width: 48px;
+}
+
+.widget .title {
+     margin-top: -6px;
+}
+
+.widget .title a {
+     color: #626060;
+     font-size: 13px;
+     text-decoration: none;
+}
+
+.widget .comt-info {
+     font-size: 12px;
+     overflow: hidden;
+}
+
+.widget .comt-info img {
+     float: left;
+     height: 48px;
+     margin-right: 10px;
+     width: 48px;
+}
+
+.widget .comt-info strong {
+     font-size: 12px;
+}
+
+.widget .comt-desc {
+     font-size: 12px;
+     margin-top: 12px;
+}
+
+.widget .post-link a {
+     color: #626060;
+     font-size: 12px;
+     text-decoration: none;
+}
+
+#footer {
+     background-color: #272C34;
+     border-top: 20px solid #008000;
+     color: #F1F1F1;
+}
+
+#web-info {
+     margin-bottom: 20px;
+     margin-top: 50px;
+     min-height: 350px;
+}
+
+#web-info h3 {
+     font-weight: normal;
+     margin-bottom: 40px;
+}
+
+#web-info ul li {
+     border-bottom: 1px solid #5D5D5D;
+     padding: 5px 0px;
+}
+
+#web-info a {
+     color: #F1F1F1;
+     text-decoration: none;
+}
+
+#about h1 {
+     margin-bottom: 50px;
+}
+
+#myterms {
+     list-style: square inside none;
+}
+
+#bottom-bar {
+     background-color: #16191E;
+     color: #F1F1F1;
+     padding-bottom: 20px;
+     padding-top: 20px;
+}
+
+#bottom-bar ul {
+     display: inline-block;
+     margin-top: 10px;
+}
+
+#bottom-bar li {
+     border-right: 1px solid #5D5D5D;
+     display: inline;
+     padding-left: 5px;
+     padding-right: 10px;
+}
+
+#bottom-bar li a {
+     color: #F1F1F1;
+     text-decoration: none;
+}
+
+.tooltip{
+     display: none;
+     position: absolute;
+     background: #fff;
+     border: 1px solid #ddd;
+     border-radius: 5px;
+     padding: 5px;
+     width: 300px;
+}
